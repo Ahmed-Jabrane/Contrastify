@@ -1,5 +1,8 @@
 # contrastify/contrast.py
 
+from contrastify.utils import validate_rgb
+
+
 def compute_contrast(color1, color2):
     """
     Compute the contrast ratio between two colors.
@@ -11,6 +14,10 @@ def compute_contrast(color1, color2):
     Returns:
     - Contrast ratio as a float.
     """
+
+    if not validate_rgb(color1) or not validate_rgb(color2):
+        raise ValueError("Invalid RGB values provided.")
+    
     luminance1 = _get_relative_luminance(color1)
     luminance2 = _get_relative_luminance(color2)
 
