@@ -1,4 +1,3 @@
-# contrastify/wcag.py
 
 def check_wcag_norms(contrast_ratio, text_size='normal'):
     """

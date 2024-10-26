@@ -1,4 +1,3 @@
-# contrastify/contrast.py
 
 from contrastify.utils import validate_rgb
 
@@ -21,7 +20,6 @@ def compute_contrast(color1, color2):
     luminance1 = _get_relative_luminance(color1)
     luminance2 = _get_relative_luminance(color2)
 
-    # Ensure L1 is the luminance of the lighter color
     L1, L2 = max(luminance1, luminance2), min(luminance1, luminance2)
 
     return (L1 + 0.05) / (L2 + 0.05)
@@ -36,14 +34,12 @@ def _get_relative_luminance(color):
     Returns:
     - Relative luminance as a float.
     """
-    r, g, b = [x / 255.0 for x in color]  # Normalize RGB values to [0, 1]
+    r, g, b = [x / 255.0 for x in color]  
 
-    # Apply the gamma correction to the RGB values
     r = _gamma_correct(r)
     g = _gamma_correct(g)
     b = _gamma_correct(b)
 
-    # Calculate the relative luminance
     luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b
     return luminance
 
