@@ -1,21 +1,18 @@
 # 🎨 Contrastify
 ![GitHub last commit](https://img.shields.io/github/last-commit/Ahmed-Jabrane/Contrastify)
-![GitHub issues](https://img.shields.io/github/issues/Ahmed-Jabrane/Contrastify)
-![GitHub contributors](https://img.shields.io/github/contributors/Ahmed-Jabrane/Contrastify)
-![GitHub](https://img.shields.io/github/license/Ahmed-Jabrane/Contrastify)
+![Last Commit](https://img.shields.io/badge/last%20commit-October%2026%2C%202024-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-A color contrast tool designed for designers, developers, and accessibility advocates.
 
-## 📘 👁️‍🗨️ Why Good Contrast Matters
 
-Contrastify is a tool built to facilitate color contrast checking, ensuring that designs are not only aesthetically pleasing but also accessible to all users, including those with visual impairments. 
-Effortlessly verify if color combinations meet the [WCAG guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/).
+## 👁️‍🗨️ Why Good Contrast Matters
+
+Contrastify is a tool built to facilitate color contrast checking, ensuring that designs are not only aesthetically pleasing but also accessible to all users ([WCAG guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)), including those with visual impairments.
 
 
 ## 📦 Installation
 
-### 1.Clone the GitHub repository:
-First, navigate to the directory where you want to clone the repository and run:
+### 1.Clone the repository:
 
 ```bash
 git clone https://github.com/Ahmed-Jabrane/Contrastify.git
@@ -27,8 +24,6 @@ cd Contrastify
 ```
 
 ### 3.Install the package locally:
-You can install the package in "editable" mode, which means changes to the source files will immediately affect the installed package:
-
 ```bash
 pip install -e .
 ```
