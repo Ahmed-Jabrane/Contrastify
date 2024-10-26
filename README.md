@@ -1,8 +1,7 @@
 # 🎨 Contrastify
 ![GitHub last commit](https://img.shields.io/github/last-commit/Ahmed-Jabrane/Contrastify)
-![Last Commit](https://img.shields.io/badge/last%20commit-October%2026%2C%202024-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-
+![Python version](https://img.shields.io/badge/python-3.8%2B-blue)
 
 
 ## 👁️‍🗨️ Why Good Contrast Matters
